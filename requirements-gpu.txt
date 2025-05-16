@@ -1,0 +1,3 @@
+# cupy-cuda11x>=12.0.0  # optional unless your code explicitly uses it
+# cudf-cuda11x>=23.8.0
+# cuml-cuda11x>=23.8.0

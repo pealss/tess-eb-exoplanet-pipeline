@@ -1,0 +1,18 @@
+# TESS Pipeline Configuration
+data:
+  download_dir: "./data/raw"  # Where to save downloaded files
+  sectors: []                 # Empty = auto-detect, or specify [14, 15]
+  max_retries: 3              # Download retry attempts
+
+processing:
+  sigma_clip: 5.0             # Outlier removal threshold (sigma)
+  normalization_method: "median"  # "median" or "mean"
+
+analysis:
+  period_grid: "logarithmic"  # "linear" or "logarithmic"
+  min_period: 0.5             # Days
+  max_period: 30.0            # Days
+
+output:
+  plot_format: "png"          # "png", "pdf", or "svg"
+  report_dir: "./results"      # Output directory

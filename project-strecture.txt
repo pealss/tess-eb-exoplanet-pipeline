@@ -1,0 +1,19 @@
+tess-eb-exoplanet-pipeline/
+├── pipeline/
+│   ├── __init__.py
+│   ├── ai_models/
+│   │   ├── parameter_estimator.h5
+│   │   └── synthetic_data_generator.py
+│   ├── visualization/
+│   │   ├── interactive_3d.py
+│   │   └── orbital_animator.py
+│   ├── analysis/
+│   │   ├── spectral_integration.py
+│   │   └── fpp_calculator.py
+│   └── utils/
+│       ├── report_builder.py
+│       └── pipeline_orchestrator.py
+├── config/
+│   └── settings.yaml
+└── examples/
+    └── end_to_end_workflow.ipynb
